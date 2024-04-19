@@ -1,0 +1,14 @@
+.modal-container {
+    max-height: 90vh; /* Adjust the value as needed */
+    overflow-y: auto;
+}
+
+/* Optional: add styles to improve the appearance */
+.modal-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
